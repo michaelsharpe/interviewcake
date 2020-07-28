@@ -1,0 +1,14 @@
+{
+  "name": "interviewcake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mergeMeetings.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
