@@ -1,4 +1,4 @@
-const mergeRanges = require('./../mergeRanges');
+const mergeRanges = require('../mergeRanges');
 
 describe('mergeRanges', () => {
   it('merges meetings multiple meeting time ranges and returns an array of condensed ranges', () => {
@@ -15,8 +15,7 @@ describe('mergeRanges', () => {
       { startTime: 3, endTime: 8 },
       { startTime: 9, endTime: 12 },
     ]
-
-    console.log("output", mergeRanges(starting))
+    
     expect(mergeRanges(starting)).toStrictEqual(expected);
   })
 })
