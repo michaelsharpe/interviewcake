@@ -25,8 +25,6 @@ function mergeArrays(myArray, alicesArray) {
     currentIndex++;
   }
 
-  console.log(merged);
-
   return merged;
 }
 
